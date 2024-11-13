@@ -1,0 +1,111 @@
+body{
+    background-image: url(pexels-peterfazekas-1089455.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 85px;
+    width: 100%;
+    background-color: #1D2D20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 60px 20px rgba(29, 45, 32, 1);
+}
+.Login{
+    display: inline;
+    margin-right: 40px;
+}
+a{
+    color: aliceblue;
+}
+.Login>a{
+    margin-right: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    height:55px;
+    margin-left: 20px;
+}
+p{
+    font-style: italic;
+}
+.bt{
+    font-size: large;
+}
+.main{
+    height:600px;
+    width: 550px;
+    margin: 50px auto;
+    text-align: center;
+    color: aliceblue;
+}
+.heading{
+    display: inline;
+    color: aliceblue;
+    margin-left: 5px;
+    font-style: italic;
+}
+.list{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 40px 0 20px 0;
+}
+.list a{
+    display: block;
+    text-decoration: none;
+    transition-duration: 75ms;
+    transition-delay: 50ms;
+    transition-property: font-size;
+}
+.list a:hover{
+    font-size: 24px;
+}
+span{
+    display: block;
+}
+.last{
+    margin-bottom: 0;
+}
+.bef{
+    margin-bottom: 30px;
+}
+.c1{
+    padding-top: 10px;
+    box-shadow: 0 0 30px 20px rgba(29, 45, 32, 1);
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(29, 45, 32, 1);
+    height: 100px;
+}
+.c1>p{  
+    text-decoration: underline;
+}
+.c2{
+    box-shadow: 0 0 30px 20px rgba(29, 45, 32, 1);
+    background-color: rgba(29, 45, 32, 0.9);
+    background: linear-gradient(rgba(29, 45, 32, 1), rgba(29, 45, 32, 0.5), rgba(29, 45, 32, 1));
+}
+.bottom{
+    border-radius:  0 0 10px 10px;
+    padding-top: 15px;
+    height: 120px;
+}
+footer{
+    color: aliceblue;
+    height: 85px;
+    width: 100%;
+    background-color: #1D2D20;
+    text-align: center;
+    box-shadow: 0 0 60px 20px rgba(29, 45, 32, 1);
+    padding: 10px 0 10px 0;
+}
+.border{
+    height: 5px;
+    background-color: aliceblue;
+}
